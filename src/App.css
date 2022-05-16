@@ -1,0 +1,17 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active,
+.inactive {
+  font-size: 30px;
+  padding: 10px;
+  background-color: red;
+  width: 200px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
