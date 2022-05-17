@@ -3,7 +3,7 @@ import { useEffect, useState, useRef } from "react";
 export function useActive(time) {
   const [active, setActive] = useState(false);
   const timer = useRef();
-  const events = ["keypress", "mousemove", "touchmove", "click", "scroll"];
+  const events = ["keydown", "mousemove", "touchmove", "click", "scroll"];
 
   useEffect(() => {
     const handleEvent = () => {
